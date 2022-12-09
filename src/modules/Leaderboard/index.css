@@ -1,0 +1,10 @@
+.leaderboard-table__wrapper {
+  margin: 16px auto;
+}
+
+.leaderboard-table__wrapper .current-user-row {
+  background: var(--main-bg-color);
+}
+.leaderboard-table__wrapper .current-user-row:hover > .ant-table-cell {
+  background: unset !important;
+}
