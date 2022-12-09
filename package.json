@@ -29,7 +29,8 @@
     "eject": "craco eject",
     "lint": "eslint src/**/*.{ts,tsx}",
     "lint:fix": "eslint --fix 'src/**/*.{ts,tsx}'",
-    "format": "prettier --write 'src/**/*.{ts,tsx,css}' --config ./.prettierrc"
+    "format": "prettier --write 'src/**/*.{ts,tsx,css}' --config ./.prettierrc",
+    "deploy": "yarn build && cd build && cp index.html 200.html && surge --domain janglewood-quiz.surge.sh . && cd .."
   },
   "browserslist": {
     "production": [
