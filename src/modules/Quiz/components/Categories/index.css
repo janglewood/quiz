@@ -1,0 +1,21 @@
+.ant-list-items {
+  margin: 16px 0 !important;
+}
+
+.ant-list {
+  margin: 16px 32px;
+}
+.ant-list .ant-row div .ant-col .ant-list-item {
+  border: 1px solid;
+  border-color: var(--primary-border-color);
+  border-block-end-color: var(--primary-border-color) !important;
+  border-radius: 8px;
+  padding: 16px 8px;
+  margin: 8px 0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.ant-list-item:hover {
+  background-color: var(--item-hover-bg-color) !important;
+}

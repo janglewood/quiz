@@ -1,38 +1,27 @@
-.App {
+/*  Components */
+@import '@/components/Header/index.css';
+
+/* Modules */
+@import '@/modules/Quiz/components/Categories/index.css';
+@import '@/modules/Leaderboard/index.css';
+
+* {
+  --main-text-color: #a191ff;
+  --header-bg-color: #e8e8e8;
+  --main-bg-color: #a191ff;
+  --item-hover-bg-color: #c7beff;
+  --item-selected-bg-color: #5639fc;
+  --primary-border-color: #b802b5;
+}
+
+.h100 {
+  min-height: calc(100vh - 10vh);
+}
+
+.p-8 {
+  padding: 16px 0;
+}
+
+.ant-typography {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

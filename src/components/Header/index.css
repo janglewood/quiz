@@ -1,0 +1,21 @@
+.ant-layout-header {
+  display: flex;
+  background-color: var(--header-bg-color) !important;
+  min-height: 10vh !important;
+}
+
+.ant-layout-header .ant-typography {
+  color: var(--main-text-color);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.ant-layout-header .ant-row {
+  width: 100%;
+}
+
+.ant-layout-header .ant-row svg {
+  width: 36px;
+  fill: var(--main-text-color);
+  cursor: pointer;
+}
